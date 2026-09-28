@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+# Generated output, not source.
+results/
+figures/
+
+# The synthetic quick-test sample is regenerated on demand.
+test_sample.csv
+
+# A working copy of the sample table at the repository root. The
+# committed copy lives at data/oil_burn_samples.csv, so this pattern is
+# anchored with a leading slash to avoid ignoring it.
+/oil_burn_samples.csv
